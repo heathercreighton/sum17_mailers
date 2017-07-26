@@ -1,0 +1,11 @@
+<!-- welcome_email.text.erb -->
+Welcome to Heather.com, <%= @user.name %>
+===============================================
+ 
+You have successfully signed up to Heather.com,
+your username is: <%= @user.username %>.
+ 
+To login to the site, just follow this link: <%= @url %>.
+ 
+Thanks for joining and have a great day!
+Questions?  <%= mail_to "test.heather.creighton@gmail.com", "Email Me!" %>
